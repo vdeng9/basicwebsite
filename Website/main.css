@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    font-family: 'Times New Roman', Times, serif;
+    list-style: armenian;
+}
+
+.list {
+    list-style: decimal;
+}
+
+#msg {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.light-theme {
+    color: black;
+    background: white;
+}
+
+.dark-theme {
+    color: black;
+    background: gray;
+}
+
+.theme-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: none;
+    color: red;
+    background: black;
+}
+
+.special-bg-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: none;
+    background: lightblue;
+}
+
+.special-background {
+    background-image: url("images/miku.png");
+    background-size: cover;
+    background-color: gray;
+}
+
+.special-background2 {
+    background-image: url("images/unknown.png");
+    background-size: 50%;
+    background-color: gray;
+}
+
+#navigation {
+    position: absolute;
+    bottom: 1px;
+    left: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
